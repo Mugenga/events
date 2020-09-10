@@ -1,0 +1,21 @@
+python_version = "3.8"
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+nose = "*"
+
+[packages]
+camelcase = "*"
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+mysql-connector-python = "*"
+bcrypt = "*"
+pyjwt = "*"
+
+[requires]
+python_version = "3.8"
+
